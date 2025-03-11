@@ -1,0 +1,29 @@
+:root {
+    --svetlaya: #f0f1fb;
+    --temnaya: #212d31;
+    --osnovnoy-akcent: #0062ff;
+    --dop-akcent-1: #ffb800;
+    --dop-akcent-2: #14e4b1;
+    --dop-akcent-3: #dc3545;
+
+    --font-family: "Mulish", sans-serif;
+    --second-family: "RoadRadio", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
